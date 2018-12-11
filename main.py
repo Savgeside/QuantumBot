@@ -2,7 +2,6 @@ import discord
 import json
 from discord.ext import commands
 
-TOKEN = "NTIwNzk0MTI0NzMyMDcxOTM3.DuzC5A.udtlRlDBdyM1xsbWMYSxcjXcsS4"
 
 bot = commands.Bot(command_prefix="!")
 
@@ -41,4 +40,5 @@ async def reload(ctx, *, ext = None):
     except Exception as error:
         await ctx.send(f":open_mouth: Error: ``{error}``")
 
-bot.run(TOKEN)
+
+client.run(os.environ['TOKEN'])
