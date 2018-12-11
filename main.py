@@ -41,4 +41,4 @@ async def reload(ctx, *, ext = None):
         await ctx.send(f":open_mouth: Error: ``{error}``")
 
 
-client.run(os.environ['TOKEN'])
+bot.run(os.environ['TOKEN'])
