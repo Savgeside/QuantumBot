@@ -1,0 +1,16 @@
+{
+    "521453854534139904": {
+        "welcome channel": 521453854534139906,
+        "farewell message": "**{member}** Goodbye \ud83d\ude26",
+        "farewell channel": 521453854534139906,
+        "auto-role": "new role",
+        "mute-role": "new role",
+        "welcome message": "{member} Welcome to **{server}**! Please read the rules and info..",
+        "case": 3
+    },
+    "518269981969088513": {
+        "case": 5,
+        "farewell message": "**{member}** Goodbye \ud83d\ude26",
+        "farewell channel": 518269982392582165
+    }
+}
