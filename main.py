@@ -1,6 +1,7 @@
 import discord
 import json
 import os
+print(discord.__version__)
 from discord.ext import commands
 
 
