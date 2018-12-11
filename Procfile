@@ -1,1 +1,1 @@
-worker: python Quantum Bot/main.py
+worker: python main.py
